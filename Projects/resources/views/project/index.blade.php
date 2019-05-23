@@ -9,6 +9,7 @@
         @foreach($projects as $project)
             <div class="card card-body bg-light">
                 <h3><a href="/project/{{$project->id}}">{{$project->name}}</a></h3>
+                <h4>Project Leader:</h4>
                 <small>{{$project->description}}</small>
             </div>
             @endforeach

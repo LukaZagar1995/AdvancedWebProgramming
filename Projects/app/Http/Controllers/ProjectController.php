@@ -73,7 +73,7 @@ class ProjectController extends Controller
            foreach ($request->users_id as $user_id)
            {
                $user = User::find($user_id);
-               $project->on()->attach($user);
+               $project->workingOn()->attach($user);
            }
        }
 
@@ -90,7 +90,14 @@ class ProjectController extends Controller
     public function show($id)
     {
         $project = Project::find($id);
-        return view('project.show')->with('project',$project);
+        $leader = User::find($project->user_id);
+        $workers = $project->workingOn()->get();
+        $data = array(
+            'project' => $project,
+            'leader' => $leader,
+            'workers' => $workers
+        );
+        return view('project.show')->with($data);
     }
 
     /**
@@ -136,6 +143,14 @@ class ProjectController extends Controller
         $project->done_jobs = $request->input('done_jobs');
         $project->start_time = $request->input('start_time');
         $project->end_time = $request->input('end_time');
+        if($request->users_id != null)
+        {
+            foreach ($request->users_id as $user_id)
+            {
+                $user = User::find($user_id);
+                $project->workingOn()->attach($user);
+            }
+        }
 
         $project->save();
 
@@ -150,6 +165,8 @@ class ProjectController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project = Project::find($id);
+        $project->delete();
+        return redirect('/project');
     }
 }

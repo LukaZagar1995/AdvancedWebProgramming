@@ -26,6 +26,11 @@ class HomeController extends Controller
     {
         $user_id = auth()->user()->id;
         $user = User::find($user_id);
-        return view('home')->with('projects', $user->projects);
+        $workingOn = $user->onProjects()->get();
+        $data = array(
+            'projects' => $user->projects,
+            'workingOn' => $workingOn
+        );
+        return view('home')->with($data);
     }
 }
