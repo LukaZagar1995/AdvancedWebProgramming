@@ -32,9 +32,9 @@
     <div class="form-group">
         {{Form::label('price', 'Project Price')}}
         @if(Auth::user()->id == $project->user_id)
-            {{Form::textarea('price', $project->description, ['class' => 'form-control', 'placeholder' => 'Project Price'])}}
+            {{Form::number('price', $project->price, ['class' => 'form-control', 'placeholder' => 'Project Price'])}}
         @else
-            {{Form::text('price', $project->description, ['class' => 'form-control', 'placeholder' => 'Project Price', 'readonly' => 'true'])}}
+            {{Form::text('price', $project->price, ['class' => 'form-control', 'placeholder' => 'Project Price', 'readonly' => 'true'])}}
         @endif
     </div>
     @if($errors->has('price'))
@@ -58,9 +58,9 @@
     <div class="form-group">
         {{Form::label('start_time', 'Project\'s Start Date')}}
         @if(Auth::user()->id == $project->user_id)
-            {{Form::textarea('start_time', $project->description, ['class' => 'form-control', 'placeholder' => 'Project\'s Start Date'])}}
+            {{Form::textarea('start_time', $project->start_time, ['class' => 'form-control', 'placeholder' => 'Project\'s Start Date'])}}
         @else
-            {{Form::text('start_time', $project->description, ['class' => 'form-control', 'placeholder' => 'Project\'s Start Date', 'readonly' => 'true'])}}
+            {{Form::text('start_time', $project->start_time, ['class' => 'form-control', 'placeholder' => 'Project\'s Start Date', 'readonly' => 'true'])}}
         @endif
     </div>
     @if($errors->has('start_time'))
@@ -71,9 +71,9 @@
     <div class="form-group">
         {{Form::label('end_time', 'Project\'s End Date')}}
         @if(Auth::user()->id == $project->user_id)
-            {{Form::textarea('end_time', $project->description, ['class' => 'form-control', 'placeholder' => 'Project\'s End Date'])}}
+            {{Form::textarea('end_time', $project->end_time, ['class' => 'form-control', 'placeholder' => 'Project\'s End Date'])}}
         @else
-            {{Form::text('end_time', $project->description, ['class' => 'form-control', 'placeholder' => 'Project\'s End Date', 'readonly' => 'true'])}}
+            {{Form::text('end_time', $project->end_time, ['class' => 'form-control', 'placeholder' => 'Project\'s End Date', 'readonly' => 'true'])}}
         @endif
     </div>
     @if($errors->has('end_time'))
