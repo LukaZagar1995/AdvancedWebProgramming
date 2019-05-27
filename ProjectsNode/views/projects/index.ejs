@@ -1,0 +1,22 @@
+<% include ../partials/navbaruser %>
+<div class="container">
+        <% include ../partials/messages %>
+<div class="custom-control-inline">
+    <h1>Projects</h1>
+    <a class="btn btn-success" href="/project/create" role="button" style="vertical-align: center">Create Project</a>
+</div>
+    <% if(typeof projects != null) {%>
+        <% projects.forEach(function(project) { %>
+    
+            <div class="card card-body bg-light">
+
+                <h3><a href="/project/<%= project.id %>"  > <%= project.name %></a></h3>
+                <h4>Project Leader: <%= project.leader.name %></h4>
+                <small><%= project.description %></small>
+            </div>
+            <% }); %>
+        <% } else { %>
+        <p>No projects found!</p>
+        <% } %>
+    
+</div>

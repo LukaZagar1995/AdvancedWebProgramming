@@ -1,0 +1,728 @@
+[Thu Apr 11 21:08:06.220525 2019] [php7:crit] [pid 2224:tid 1972] [client ::1:56627] PHP Parse error:  syntax error, unexpected '}', expecting '(' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 55
+[Thu Apr 11 21:25:29.121755 2019] [php7:error] [pid 2224:tid 1944] [client ::1:56798] PHP Fatal error:  Uncaught Error: Call to undefined function file_get_html() in E:\\xampp\\htdocs\\nwp\\lv1\\html.php:4\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 4
+[Thu Apr 11 21:34:25.645909 2019] [php7:crit] [pid 2224:tid 1972] [client ::1:56886] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 3
+[Thu Apr 11 21:34:45.317391 2019] [php7:warn] [pid 2224:tid 1944] [client ::1:56888] PHP Warning:  The use statement with non-compound name 'simple_html_dom' has no effect in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 3
+[Thu Apr 11 21:34:45.317391 2019] [php7:error] [pid 2224:tid 1944] [client ::1:56888] PHP Fatal error:  Uncaught Error: Call to undefined function file_get_html() in E:\\xampp\\htdocs\\nwp\\lv1\\html.php:6\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 6
+[Thu Apr 11 21:36:38.930825 2019] [php7:notice] [pid 2224:tid 1972] [client ::1:56896] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 7
+[Thu Apr 11 21:36:58.267057 2019] [php7:error] [pid 2224:tid 1944] [client ::1:56900] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\html.php on line 7
+[Thu Apr 11 21:51:28.775772 2019] [php7:error] [pid 2224:tid 1920] [client ::1:56942] PHP Fatal error:  Uncaught Error: Call to a member function find() on string in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:12\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 12
+[Thu Apr 11 21:52:35.633995 2019] [php7:error] [pid 2224:tid 1920] [client ::1:56951] PHP Fatal error:  Uncaught Error: Call to a member function find() on bool in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:14\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 14
+[Thu Apr 11 21:54:23.023856 2019] [php7:error] [pid 2224:tid 1960] [client ::1:56956] PHP Fatal error:  Uncaught Error: Call to a member function find() on bool in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:16\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 16
+[Thu Apr 11 21:57:33.455913 2019] [php7:error] [pid 2224:tid 1960] [client ::1:57026] PHP Fatal error:  Uncaught Error: Call to a member function find() on string in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:14\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 14
+[Thu Apr 11 22:01:49.657137 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:57267] PHP Notice:  Undefined variable: curl in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 8
+[Thu Apr 11 22:01:49.657137 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:57267] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 8
+[Thu Apr 11 22:01:49.657137 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:57267] PHP Notice:  Undefined variable: curl in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Thu Apr 11 22:01:49.657137 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:57267] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Thu Apr 11 22:01:53.024325 2019] [php7:error] [pid 2224:tid 1920] [client ::1:57267] PHP Fatal error:  Uncaught Error: Call to a member function find() on string in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:14\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 14
+[Thu Apr 11 22:04:05.219366 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:57384] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 18
+[Thu Apr 11 23:24:57.479979 2019] [php7:error] [pid 2224:tid 1960] [client ::1:61474] PHP Fatal error:  Uncaught Error: Call to undefined function length() in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:19\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Thu Apr 11 23:25:26.959660 2019] [php7:error] [pid 2224:tid 1920] [client ::1:61502] PHP Fatal error:  Uncaught Error: Call to undefined function str_len() in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:19\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:01:43.658818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:01:43.658818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:01:43.659818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:01:43.659818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:01:43.659818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:01:43.659818 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:63332] PHP Notice:  Undefined variable: content in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 24
+[Fri Apr 12 00:16:50.253848 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64075] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:16:52.797703 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64075] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:16:55.143196 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64075] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:16:58.501854 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64075] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:00.845233 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64075] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:50.098533 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64124] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:52.438176 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64124] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:54.780534 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64124] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:57.124579 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64124] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:17:59.472613 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64124] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:19:24.866639 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64203] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:19:24.866639 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64203] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:19:24.866639 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64203] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:19:24.866639 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64203] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:19:24.866639 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64203] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:02.477228 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:02.477228 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:02.477228 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:02.477228 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:02.477228 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:03.518932 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:03.518932 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:03.518932 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:03.518932 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:03.518932 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:04.108869 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:04.108869 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:04.108869 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:04.108869 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:20:04.108869 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:64235] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:21:03.841161 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64287] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:21:03.841161 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64287] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:21:03.841161 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64287] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:21:03.841161 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64287] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:21:03.841161 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:64287] PHP Warning:  A non-numeric value encountered in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 9
+[Fri Apr 12 00:23:48.167469 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:48.167469 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:48.168465 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:48.168465 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:48.168465 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:48.168465 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.599360 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.599360 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.599360 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.599360 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.599360 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:51.600357 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.289103 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.289103 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.290100 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.290100 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.290100 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:55.290100 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.562296 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.562296 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.562296 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.562296 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.563293 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:23:58.563293 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:24:02.020701 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64440] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:41.897768 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.398179 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.398179 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.398179 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.399177 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.399177 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:45.399177 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.844636 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.844636 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.844636 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.845607 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.845607 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:48.845607 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.270265 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.270265 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.270265 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.270265 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.270265 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:52.271262 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:25:55.705522 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64539] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:29.082331 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.762348 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.762348 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.762348 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.762348 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.762348 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:32.763346 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.192037 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.192037 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.192037 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.192037 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.192037 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:36.193034 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.574089 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.574089 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.575086 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.575086 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.575086 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:39.575086 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.954305 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.955304 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.955304 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.955304 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.955304 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:42.955304 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64584] PHP Notice:  Undefined variable: m in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.543860 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.543860 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.544857 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.544857 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.544857 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:54.544857 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:26:57.971948 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.446219 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.446219 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.446219 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.447216 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.447216 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:01.447216 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.901714 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.901714 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.902713 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.902713 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.902713 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:04.902713 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:08.325277 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64612] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:56.799749 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 1 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:56.799749 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:56.799749 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 3 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:56.799749 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 4 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:27:56.800748 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 5 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:00.503273 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 1 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:00.503273 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:00.503273 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 3 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:00.503273 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 4 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:00.503273 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 5 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:03.924789 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 1 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:03.925786 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:03.925786 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 3 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:03.925786 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 4 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:03.925786 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 5 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:07.313756 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 1 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:07.313756 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:07.313756 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 3 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:07.313756 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 4 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:07.313756 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 5 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:10.697224 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 1 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:10.697224 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:10.697224 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 3 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:10.698195 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 4 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:10.698195 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:64668] PHP Notice:  Undefined offset: 5 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:55.780614 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:28:59.259686 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.689546 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.690542 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.690542 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.690542 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.690542 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:02.690542 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:06.125834 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:29:09.555019 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:64723] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.745446 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.745446 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.745446 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.745446 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.746443 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:18.746443 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:22.137728 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:25.529415 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:28.962498 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.369869 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.369869 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.369869 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.369869 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.369869 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:36:32.370867 2019] [php7:warn] [pid 2224:tid 1920] [client ::1:65102] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.412755 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.412755 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.412755 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.413726 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.413726 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:10.413726 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.856185 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.856185 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.856185 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.856185 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.857182 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:13.857182 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.275316 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.275316 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.276313 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.276313 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.276313 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:17.276313 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:20.721684 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.407022 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.407022 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.408020 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.408020 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.408020 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:37:24.408020 2019] [php7:warn] [pid 2224:tid 1960] [client ::1:65150] PHP Warning:  print_r() expects at least 1 parameter, 0 given in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:38:05.131321 2019] [php7:crit] [pid 2224:tid 1960] [client ::1:65210] PHP Parse error:  syntax error, unexpected '&', expecting ')' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:38:19.418597 2019] [php7:crit] [pid 2224:tid 1920] [client ::1:65224] PHP Parse error:  syntax error, unexpected '&', expecting ')' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:45:12.680748 2019] [php7:crit] [pid 2224:tid 1920] [client ::1:49204] PHP Parse error:  syntax error, unexpected '&', expecting ')' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 19
+[Fri Apr 12 00:46:30.714955 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:30.714955 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:30.714955 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:30.714955 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:30.715953 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:30.715953 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.167840 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.168839 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.168839 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.168839 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.168839 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:34.168839 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:37.593723 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:41.035486 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 00:46:44.710340 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:49279] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 20
+[Fri Apr 12 01:32:45.328904 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51674] PHP Notice:  Undefined variable: dom2 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 01:32:45.328904 2019] [php7:error] [pid 2224:tid 1960] [client ::1:51674] PHP Fatal error:  Uncaught Error: Call to a member function load() on null in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:35\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 01:33:37.622183 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:33:40.990133 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:33:44.351350 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:33:47.748226 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:33:51.404181 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:33:54.935426 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:51721] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:34:01.780115 2019] [php7:error] [pid 2224:tid 1920] [client ::1:51721] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 34
+[Fri Apr 12 01:37:51.636810 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:37:55.026099 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:37:58.421721 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:38:01.786016 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:38:05.168975 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:38:08.814282 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:51936] PHP Notice:  Trying to get property 'innertext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 38
+[Fri Apr 12 01:38:15.787996 2019] [php7:error] [pid 2224:tid 1960] [client ::1:51936] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 34
+[Fri Apr 12 01:40:28.101536 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:31.483872 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:34.913671 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:38.375024 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:41.900149 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:45.356765 2019] [php7:notice] [pid 2224:tid 1920] [client ::1:52072] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:40:52.848172 2019] [php7:error] [pid 2224:tid 1920] [client ::1:52072] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 34
+[Fri Apr 12 01:43:19.936337 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:19.936337 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:19.937334 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:19.937334 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:19.937334 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:19.937334 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:23.659982 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:27.365249 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.861258 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.861258 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.862257 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.862257 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.862257 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:30.862257 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.303463 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.303463 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.303463 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.303463 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.304460 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:43:34.304460 2019] [php7:notice] [pid 2224:tid 1960] [client ::1:52227] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:01.416365 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.017784 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.017784 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.017784 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.018783 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.018783 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:05.018783 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.491472 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.491472 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.491472 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.491472 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.492469 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:08.492469 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.939083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.939083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.939083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.939083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.939083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:11.940080 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.428935 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.428935 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.429932 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.429932 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.429932 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:45:15.429932 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:52327] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:37.032790 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:40.717198 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:44.180794 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:47.600392 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:50.970160 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:46:54.549144 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52408] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 40
+[Fri Apr 12 01:47:01.437738 2019] [php7:error] [pid 8988:tid 1960] [client ::1:52408] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 34
+[Fri Apr 12 01:55:47.567317 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:55:50.971648 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:55:54.326149 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:55:57.870695 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:56:01.296135 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:56:04.696443 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52864] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:56:11.545697 2019] [php7:error] [pid 8988:tid 1960] [client ::1:52864] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 01:58:11.789885 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:15.240414 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:18.660802 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:22.037690 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:25.595048 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:29.043555 2019] [php7:notice] [pid 8988:tid 1960] [client ::1:52992] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:58:35.894576 2019] [php7:error] [pid 8988:tid 1960] [client ::1:52992] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 01:59:07.342843 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:11.021814 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:14.457280 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:17.855802 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:21.234083 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:24.798022 2019] [php7:notice] [pid 8988:tid 1968] [client ::1:53048] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:31.681831 2019] [php7:error] [pid 8988:tid 1968] [client ::1:53048] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 01:59:55.669759 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 01:59:59.347320 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:03.041752 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:06.503805 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:09.908148 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:13.284367 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:20.334944 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:23.760970 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:27.173298 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:30.583273 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:34.268490 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:37.933160 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:44.824540 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:48.186672 2019] [php7:notice] [pid 10464:tid 1964] [client ::1:53099] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:00:51.729073 2019] [php7:error] [pid 10464:tid 1964] [client ::1:53099] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 35
+[Fri Apr 12 02:01:56.111007 2019] [php7:error] [pid 5820:tid 1964] [client ::1:53216] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62918656 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:04:28.082247 2019] [php7:error] [pid 5468:tid 1968] [client ::1:53345] PHP Fatal error:  Out of memory (allocated 387973120) (tried to allocate 379588608 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:04:42.167621 2019] [php7:error] [pid 5468:tid 1952] [client ::1:53346] PHP Fatal error:  Out of memory (allocated 517996544) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:14.051638 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:17.463288 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:20.821351 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:24.367170 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:27.795094 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:31.201518 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:38.029313 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:41.692907 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:45.371280 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:48.832332 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:52.223199 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:13:55.594289 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:02.635894 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:06.049466 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:09.474476 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:12.875757 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:16.539465 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:20.264282 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:28.208502 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:37.805371 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:41.253380 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:44.715689 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:48.195722 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:49.705120 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:51.923501 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:53.216571 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:56.642894 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:14:59.030885 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:00.193674 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:02.565428 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:03.716625 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:06.069540 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:07.439563 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:09.841397 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:13.375368 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:14.535758 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:17.055931 2019] [php7:warn] [pid 5468:tid 1952] [client ::1:53854] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:18.009619 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:21.417630 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:24.800718 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:28.233261 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:31.920526 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:39.101482 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:42.510097 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:45.952897 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:49.560218 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:53.051933 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:15:56.570994 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:03.539608 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:07.262764 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:11.000215 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:14.499185 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:17.957862 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:21.382753 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:28.535565 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:32.014985 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:35.470279 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:38.939263 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:42.659807 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:16:46.416548 2019] [php7:warn] [pid 5468:tid 1944] [client ::1:53960] PHP Warning:  Use of undefined constant text - assumed 'text' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:17:02.396856 2019] [php7:error] [pid 5468:tid 1944] [client ::1:53960] PHP Fatal error:  Out of memory (allocated 515899392) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 02:20:58.598713 2019] [php7:error] [pid 9660:tid 1968] [client 127.0.0.1:54229] PHP Fatal error:  Out of memory (allocated 184549376) (tried to allocate 174067712 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 02:21:06.747954 2019] [php7:error] [pid 9660:tid 1948] [client ::1:54228] PHP Fatal error:  Out of memory (allocated 520093696) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 02:23:01.699101 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:05.141539 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:08.598195 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:12.204726 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:15.720083 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:19.183396 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:26.144602 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:29.886066 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:33.402117 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:37.114871 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:40.517930 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:43.963299 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:51.093816 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:54.552840 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:23:58.016579 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:01.509279 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:05.242573 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:08.797433 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:15.979112 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:19.441115 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:23.052835 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:26.537145 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:29.996636 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:33.458464 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:40.706595 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:44.214104 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:47.946296 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:51.378907 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:54.855865 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:58.453910 2019] [php7:notice] [pid 9660:tid 1964] [client ::1:54508] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 41
+[Fri Apr 12 02:24:58.453910 2019] [php7:warn] [pid 9660:tid 1964] [client ::1:54508] PHP Warning:  Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 02:24:58.453910 2019] [php7:warn] [pid 9660:tid 1964] [client ::1:54508] PHP Warning:  Illegal string offset 'text' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 02:35:06.908328 2019] [php7:error] [pid 9660:tid 1948] [client ::1:55022] PHP Fatal error:  Out of memory (allocated 515899392) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 48
+[Fri Apr 12 03:24:10.728098 2019] [php7:error] [pid 9660:tid 1940] [client ::1:57855] PHP Fatal error:  Out of memory (allocated 480247808) (tried to allocate 476057600 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 51
+[Fri Apr 12 10:11:31.132901 2019] [php7:error] [pid 2776:tid 1956] [client ::1:49775] PHP Fatal error:  Out of memory (allocated 522190848) (tried to allocate 511709184 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 51
+[Fri Apr 12 10:16:58.865459 2019] [php7:error] [pid 9540:tid 1964] [client ::1:49824] PHP Fatal error:  Out of memory (allocated 520093696) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 51
+[Fri Apr 12 10:24:24.462602 2019] [php7:crit] [pid 9540:tid 1956] [client ::1:50021] PHP Parse error:  syntax error, unexpected ')' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 32
+[Fri Apr 12 10:25:22.511057 2019] [php7:warn] [pid 9540:tid 1964] [client ::1:50023] PHP Warning:  Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 32
+[Fri Apr 12 10:25:22.511057 2019] [php7:warn] [pid 9540:tid 1964] [client ::1:50023] PHP Warning:  Illegal string offset 'link' in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 32
+[Fri Apr 12 10:25:22.512054 2019] [php7:warn] [pid 9540:tid 1964] [client ::1:50023] PHP Warning:  Invalid argument supplied for foreach() in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 32
+[Fri Apr 12 10:27:23.646395 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:27.166464 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:30.656878 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:34.123296 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:37.600606 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:41.153570 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:44.613220 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:48.140896 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:51.644471 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:55.113662 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:27:58.582111 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:02.110414 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:05.575940 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:09.061471 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:12.553229 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:16.085796 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:19.554147 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:23.107687 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:26.865004 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:30.351660 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:33.810068 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:37.327722 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:40.829679 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:44.327695 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:47.831983 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:51.317950 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:54.939042 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:28:58.545246 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:29:02.029890 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:29:05.559261 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50037] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:29:56.474523 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:00.115398 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:03.694945 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:07.298519 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:10.882646 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:14.510787 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:17.998632 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:21.597790 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:25.112417 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:28.612686 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:32.154179 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:35.722987 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:39.267614 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:42.812783 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:46.395650 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:49.935432 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:53.495194 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:30:57.093746 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:00.634039 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:04.212909 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:07.753715 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:11.326606 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:14.847374 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:18.390315 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:21.963313 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:25.522230 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:29.064529 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:32.581734 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:36.076765 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:31:39.542056 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50074] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:35:36.797518 2019] [php7:error] [pid 9540:tid 1956] [client ::1:50119] PHP Fatal error:  Out of memory (allocated 513802240) (tried to allocate 509612032 bytes) in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:21.831393 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:25.358146 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:28.899509 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:32.376345 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:35.905144 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:39.404626 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:42.882663 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:46.385317 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:49.923490 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:53.468251 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:38:56.928162 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:00.430171 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:03.924712 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:07.397128 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:10.943134 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:14.430219 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:17.907321 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:21.435384 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:24.980548 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:28.503614 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:32.008541 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:35.500187 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:38.979202 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:42.464413 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:45.999087 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:49.473551 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:52.957196 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:39:56.483064 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:40:00.037950 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:40:03.572029 2019] [php7:notice] [pid 9540:tid 1956] [client ::1:50243] PHP Notice:  Trying to get property 'plaintext' of non-object in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 43
+[Fri Apr 12 10:41:23.927869 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50432] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:41:27.399937 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50432] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:41:30.937577 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50432] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:41:34.428524 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50432] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:41:37.932859 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:50432] PHP Notice:  Array to string conversion in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:45:01.698204 2019] [php7:error] [pid 9540:tid 1964] [client ::1:50689] PHP Fatal error:  Cannot use temporary expression in write context in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 44
+[Fri Apr 12 10:58:37.541002 2019] [php7:warn] [pid 9540:tid 1964] [client ::1:51393] PHP Warning:  require(class_DiplomskiRadovi): failed to open stream: No such file or directory in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 4
+[Fri Apr 12 10:58:37.541002 2019] [php7:error] [pid 9540:tid 1964] [client ::1:51393] PHP Fatal error:  require(): Failed opening required 'class_DiplomskiRadovi' (include_path='E:\\xampp\\php\\PEAR') in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 4
+[Fri Apr 12 11:02:21.434908 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.435905 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.436902 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.437900 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.438897 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.439895 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.439895 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.439895 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.439895 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: naziv in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:02:21.439895 2019] [php7:notice] [pid 9540:tid 1940] [client ::1:51483] PHP Notice:  Undefined index: tekst in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 52
+[Fri Apr 12 11:44:08.009701 2019] [php7:error] [pid 9540:tid 1964] [client ::1:54013] PHP Fatal error:  Uncaught Error: Non-static method DiplomskiRadovi::__construct() cannot be called statically in E:\\xampp\\htdocs\\nwp\\lv1\\class_DiplomskiRadovi.php:49\nStack trace:\n#0 E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php(52): DiplomskiRadovi::create('Ponuda zavr\\xC5\\xA1ni...', 'Kao i pro\\xC5\\xA1lih ...', 'http://stup.fer...', '40480660548')\n#1 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\class_DiplomskiRadovi.php on line 49
+[Fri Apr 12 11:54:22.005977 2019] [php7:notice] [pid 9540:tid 1920] [client ::1:54546] PHP Notice:  Undefined offset: 30 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 61
+[Fri Apr 12 11:54:22.005977 2019] [php7:error] [pid 9540:tid 1920] [client ::1:54546] PHP Fatal error:  Uncaught Error: Call to a member function dohvati_naziv() on null in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:61\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 61
+[Fri Apr 12 11:55:07.420748 2019] [php7:notice] [pid 9540:tid 1964] [client ::1:54599] PHP Notice:  Undefined offset: 30 in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 61
+[Fri Apr 12 11:55:07.421746 2019] [php7:error] [pid 9540:tid 1964] [client ::1:54599] PHP Fatal error:  Uncaught Error: Call to a member function dohvati_naziv() on null in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:61\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 61
+[Fri Apr 12 11:59:08.802641 2019] [php7:error] [pid 9540:tid 1964] [client ::1:55020] PHP Fatal error:  Declaration of DiplomskiRadovi::create($naziv, $tekst, $link, $oib) must be compatible with iRadovi::create($data) in E:\\xampp\\htdocs\\nwp\\lv1\\class_DiplomskiRadovi.php on line 9
+[Fri Apr 12 12:48:04.825477 2019] [php7:error] [pid 9540:tid 1964] [client ::1:57642] PHP Fatal error:  Uncaught Error: Class 'class_DiplomskiRadovi' not found in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:55\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 55
+[Fri Apr 12 12:51:47.771538 2019] [php7:error] [pid 9540:tid 1940] [client ::1:57862] PHP Fatal error:  Uncaught Error: Class 'class_DiplomskiRadovi' not found in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php:55\nStack trace:\n#0 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php on line 55
+[Fri Apr 12 12:59:55.049459 2019] [php7:error] [pid 9540:tid 1940] [client ::1:58324] PHP Fatal error:  Uncaught Error: Cannot use object of type DiplomskiRadovi as array in E:\\xampp\\htdocs\\nwp\\lv1\\class_DiplomskiRadovi.php:61\nStack trace:\n#0 E:\\xampp\\htdocs\\nwp\\lv1\\cURL.php(55): DiplomskiRadovi::save(Array)\n#1 {main}\n  thrown in E:\\xampp\\htdocs\\nwp\\lv1\\class_DiplomskiRadovi.php on line 61

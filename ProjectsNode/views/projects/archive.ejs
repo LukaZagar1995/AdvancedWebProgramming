@@ -1,0 +1,21 @@
+<% include ../partials/navbaruser %>
+<div class="container">
+        <% include ../partials/messages %>
+<div class="custom-control-inline">
+    <h1>Archived Projects</h1>
+    </div>
+    <% if(typeof projects != null) {%>
+        <% projects.forEach(function(project) { %>
+    
+            <div class="card card-body bg-light">
+
+                <h3><%= project.name %></h3>
+                <h4>Project Leader:</h4>
+                <small><%= project.description %></small>
+            </div>
+            <% }); %>
+        <% } else { %>
+        <p>No projects found!</p>
+        <% } %>
+    
+</div>
