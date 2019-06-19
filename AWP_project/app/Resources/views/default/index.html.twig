@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container">
+<div class="custom-control-inline">
+<h1>Products</h1>
+</div>
+    {% if products %}
+        {% for product in products %}
+            {% if product.stock < 5  and product.stock > 0%}
+<div class="card card-body" style="margin-bottom: 10px; background-color: #F0E68C">
+    {% elseif product.stock == 0 %}
+    <div class="card card-body" style="margin-bottom: 10px; background-color: #B22222">
+        {% else %}
+            <div class="card card-body" style="margin-bottom: 10px; background-color: #3CB371">
+                 {% endif %}
+    <h3>Name: <a href="{{ path('product_details', {id:product.id}) }}" >{{ product.name }}</a> </h3>
+    <h4>Serial Number: {{ product.serialNumber }}</h4>
+    <h4>Stock: {{ product.stock }}</h4>
+    <small>Description: {{ product.description }}</small>
+</div>
+        {% endfor %}
+    {% else %}
+<p>No projects found!</p>
+
+    {% endif %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+
+{% endblock %}

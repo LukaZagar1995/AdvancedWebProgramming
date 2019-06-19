@@ -1,0 +1,111 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ invoice.id }}{% endblock %}
+{% block body %}
+<div class="container">
+    <h1>Invoice {{ invoice.invoiceNumber }}
+        <a href="{{ path('invoice_edit', {id: invoice.id}) }}" class="btn">
+            Edit
+        </a>
+    </h1>
+
+    <div>
+        Order date: {{ invoice.date|date('d-M-Y') }}
+    </div>
+
+    <table class="table" id="inv-details-table" style="empty-cells: hide">
+            <thead>
+                <tr>
+
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+            {% set fullPrice = 0 %}
+                {% for invoice_product in invoice_products %}
+                {% set fullPrice = fullPrice + invoice_product.quantity * invoice_product.productId.price %}
+
+                    <tr valign="middle">
+                        <td>
+
+                            {{ invoice_product.productId.name }}
+
+                        </td>
+                        <td>
+                            {{ invoice_product.quantity  }}
+                        </td>
+
+                        <td>
+                            {{  invoice_product.quantity * invoice_product.productId.price }}
+                        </td>
+
+
+
+
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+
+
+
+    <div>
+        <a href="{{ app.request.headers.get('referer') }}" class="btn btn-light">Back</a>
+        {% if not invoice.locked %}
+        <a href="{{ path('invoice_product_add', {id: invoice.id}) }}" class="btn btn-success">Add a product to this invoice</a>
+        {% else %}
+        <button class="btn btnPrint btn-outline-primary btn-sm" onclick="printInvoice()" data-id="{{ invoice.id }}">Print this invoice</button>
+        {% endif %}
+</div>
+
+
+    {% endblock %}
+
+    {% block javascripts %}
+
+    <script>
+    let printString = "";
+
+    $(document).ready(function () {
+            $('#invoice-details-table').DataTable( {
+            });
+
+
+        });
+    
+    
+    function printInvoice() {
+        {% set fullPrice = 0 %}
+        let win = window.open('');
+
+        printString += '<h3>Invoice {{ invoice.invoiceNumber }}</h3><br>';
+
+        printString += '<p>Date: {{ invoice.date|date('d-M-Y') }}</p>';
+        printString += '<table class="table" border="1">';
+        printString += '<thead><tr><th>Product</th><th>Quantity</th><th>Price</th></tr></thead>';
+        printString += '<tbody>';
+
+        {% for invoice_product in invoice_products %}
+        {% set fullPrice = fullPrice + invoice_product.quantity * invoice_product.productId.price %}
+        printString += '<tr valign="middle"><td>{{ invoice_product.productId.name }}</td><td>{{ invoice_product.quantity  }}</td><td>{{  invoice_product.quantity * invoice_product.productId.price }}</td></tr>';
+
+        {% endfor %}
+        printString += '</tbody></table>';
+        printString += '<p>Price: {{ fullPrice }}</p>';
+
+        win.document.write(printString);
+        win.document.close();
+        win.print();
+
+
+      
+    }
+    
+    </script>
+    {% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {{ form_start(form, {'attr': {'class': 'my-form-class'} }) }}
+
+
+
+            {{ form_label(form.invoiceNumber) }}
+        {{ form_errors(form.invoiceNumber) }}
+            {{ form_widget(form.invoiceNumber, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+        {{ form_label(form.date) }}
+        {{ form_errors(form.date) }}
+        {{ form_widget(form.date, {'attr': {'class': 'form-control mg-bot-15' }}) }}
+
+
+
+        {{ form_label(form.submit) }}
+        <br>
+        <span>
+            {{ form_widget(form.submit, {'attr': {'class': 'btn btn-success'} } ) }}
+
+        {{ form_end(form) }}
+
+            <a href="{{ app.request.headers.get('referer') }}" class="btn btn-light">Back</a>
+         </span>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    <script>
+        $(document).ready(function () {
+            setupForm();
+        });
+
+        function setupForm() {
+
+            $('#product_date').datepicker({
+                dateFormat: 'yy-mm-dd',
+                changeYear: true,
+                changeMonth: true,
+                maxDate: 0
+            });
+
+        }
+
+    </script>
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+

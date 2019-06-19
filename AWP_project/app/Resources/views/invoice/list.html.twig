@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product list{% endblock %}
+{% block body %}
+    <div class="container-fluid" style="padding: 1% 10%">
+        <div class="d-flex justify-content-between">
+            <h1>
+                Invoices
+            </h1>
+            <span>
+                <a class="btn btn-success float-right" style="margin:10px 0 10px 10px;" href="{{ path('invoice_create') }}">Add Invoice</a>
+            </span>
+        </div>
+
+        <table class="table" id="invoice-table" style="empty-cells: hide">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Invoice Number</th>
+                    <th>Date</th>
+                    <th>Locked</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for invoice in invoices %}
+                    <tr valign="middle">
+                        <td>
+                            {{ invoice.id }}
+                        </td>
+                        <td>
+
+                            {{ invoice.invoiceNumber }}
+
+                        </td>
+                        <td>
+                            {{ invoice.date|date("d M Y") }}
+                        </td>
+
+                        <td>
+                            {% if invoice.locked %}
+                                Yes
+                            {% else %}
+                                No
+                            {% endif %}
+                        </td>
+
+                        <td>
+
+
+                                <a href="{{ path('invoice_details', {id:invoice.id}) }}">Details</a>
+                            {% if not invoice.locked %}
+                                |
+                                <a href="{{ path('invoice_edit', {id:invoice.id}) }}">Edit</a>
+                                |
+                                <a href="{{ path('invoice_lock', {id:invoice.id}) }}">Lock</a>
+
+
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        $(document).ready(function () {
+            $('#invoice-table').DataTable( {
+            });
+
+
+        });
+
+    </script>
+{% endblock %}

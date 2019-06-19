@@ -1,0 +1,190 @@
+<?php
+
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use Symfony\Component\Validator\Constraints as Assert;
+
+
+
+
+/**
+ * Invoice
+ *
+ * @ORM\Table(name="invoice")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\InvoiceRepository")
+ *
+ * @UniqueEntity(
+ *     fields="invoiceNumber",
+ *     message="Invoice number already in use"
+ * )
+ */
+
+class Invoice
+{
+    /**
+     * @var int
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var bool
+     * @ORM\Column(name="locked", type="boolean")
+     */
+    private $locked;
+
+    /**
+     * @var string
+     * @ORM\Column(name="invoicenumber", type="string", unique=true)
+     * @Assert\NotBlank
+     * @Assert\Regex(
+     *     pattern="/^[0-9a-zA-Z]*$/",
+     *     message="Invoice number can only contain numbers and letters"
+     * )
+     *
+     */
+    private $invoiceNumber;
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Invoice_Product", mappedBy="invoice_id")
+     */
+    protected $products;
+
+    /**
+     * @var \DateTime
+     * @ORM\Column(name="date", type="datetime")
+     * @Assert\NotNull
+     */
+    private $date;
+
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->products = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add product.
+     *
+     * @param \AppBundle\Entity\Invoice_Product $product
+     *
+     * @return Invoice
+     */
+    public function addProduct(\AppBundle\Entity\Invoice_Product $product)
+    {
+        $this->products[] = $product;
+
+        return $this;
+    }
+
+    /**
+     * Remove product.
+     *
+     * @param \AppBundle\Entity\Invoice_Product $product
+     *
+     * @return boolean TRUE if this collection contained the specified element, FALSE otherwise.
+     */
+    public function removeProduct(\AppBundle\Entity\Invoice_Product $product)
+    {
+        return $this->products->removeElement($product);
+    }
+
+    /**
+     * Get products.
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getProducts()
+    {
+        return $this->products;
+    }
+
+    /**
+     * Set invoiceNumber.
+     *
+     * @param string $invoiceNumber
+     *
+     * @return Invoice
+     */
+    public function setInvoiceNumber($invoiceNumber)
+    {
+        $this->invoiceNumber = $invoiceNumber;
+
+        return $this;
+    }
+
+    /**
+     * Get invoiceNumber.
+     *
+     * @return string
+     */
+    public function getInvoiceNumber()
+    {
+        return $this->invoiceNumber;
+    }
+
+    /**
+     * Set date.
+     *
+     * @param \DateTime $date
+     *
+     * @return Invoice
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+
+        return $this;
+    }
+
+    /**
+     * Get date.
+     *
+     * @return \DateTime
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set locked.
+     *
+     * @param bool $locked
+     *
+     * @return Invoice
+     */
+    public function setLocked($locked)
+    {
+        $this->locked = $locked;
+
+        return $this;
+    }
+
+    /**
+     * Get locked.
+     *
+     * @return bool
+     */
+    public function getLocked()
+    {
+        return $this->locked;
+    }
+}

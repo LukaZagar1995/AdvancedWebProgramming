@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+        Add a product to this invoice
+
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {{ form_start(form, {'attr': {'class': 'my-form-class'} }) }}
+
+            {{ form_label(form.product_id) }}
+            {{ form_errors(form.product_id) }}
+            {{ form_widget(form.product_id, {'attr': {'class': 'form-control mg-bot-15' }}) }}
+
+        {{ form_label(form.type) }}
+        {{ form_errors(form.type) }}
+        {{ form_widget(form.type, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+            {{ form_label(form.quantity) }}
+        {% for message in app.flashes('error') %}
+            <div class="flash-notice " style="color: red">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+            {{ form_errors(form.quantity) }}
+            {{ form_widget(form.quantity, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+        <br>
+
+            {{ form_label(form.submit) }}
+        <span>
+            {{ form_widget(form.submit, {'attr': {'class': 'btn btn-success'} } ) }}
+
+        {{ form_end(form) }}
+
+            <a href="{{ app.request.headers.get('referer') }}" class="btn btn-light">Back</a>
+         </span>
+    </div>
+{% endblock %}
+{% block javascripts %}
+
+    <script>
+
+    </script>
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+

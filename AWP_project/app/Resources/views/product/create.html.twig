@@ -1,0 +1,71 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {% if product %}
+        Edit {{ product.name }}
+    {% else %}
+        Add a new Product
+    {% endif %}
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {{ form_start(form, {'attr': {'class': 'my-form-class'} }) }}
+
+            {{ form_label(form.name) }}
+            {{ form_errors(form.name) }}
+            {{ form_widget(form.name, {'attr': {'class': 'form-control mg-bot-15' }}) }}
+
+            {{ form_label(form.serialNumber) }}
+            {{ form_errors(form.serialNumber) }}
+            {{ form_widget(form.serialNumber, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+            {{ form_label(form.description) }}
+            {{ form_errors(form.description) }}
+            {{ form_widget(form.description, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+        {{ form_label(form.stock) }}
+        {{ form_errors(form.stock) }}
+        {{ form_widget(form.stock, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+
+
+
+            {{ form_label(form.price) }}
+        {{ form_errors(form.price) }}
+            {{ form_widget(form.price, {'attr': {'class': 'form-control mg-bot-15'}}) }}
+        <br>
+
+            {{ form_label(form.submit) }}
+        <span>
+            {{ form_widget(form.submit, {'attr': {'class': 'btn btn-success'} } ) }}
+
+        {{ form_end(form) }}
+
+            <a href="{{ app.request.headers.get('referer') }}" class="btn btn-light">Back</a>
+         </span>
+    </div>
+{% endblock %}
+{% block javascripts %}
+
+    <script>
+        $(document).ready(function () {
+            setupForm();
+        });
+
+        function setupForm() {
+
+            $('#product_dateOfPurchase').datepicker({
+                dateFormat: 'yy-mm-dd',
+                changeYear: true,
+                changeMonth: true,
+                maxDate: 0
+            });
+
+        }
+
+    </script>
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+

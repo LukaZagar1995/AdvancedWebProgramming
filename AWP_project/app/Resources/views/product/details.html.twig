@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ product.name }}{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="card card-body bg-light">
+    <h1>{{ product.name }}
+        <a href="{{ path('product_edit', {id: product.id}) }}" class="btn">
+            Edit
+        </a>
+        <a href="{{ path('product_delete', {id: product.id}) }}" class="btn" onclick="return confirm('Are you sure you want to delete {{ product.name }}?')" >
+            Delete
+        </a>
+    </h1>
+
+
+    <div>
+        Description: {{ product.description }}
+    </div>
+    <div>
+        Price: {{ product.price }}
+    </div>
+    <div>
+        Serial number: {{ product.serialNumber }}
+    </div>
+    <div>
+        Stock: {{ product.stock }}
+    </div>
+
+    </div>
+
+
+
+    <div>
+        <a href="{{ app.request.headers.get('referer') }}" class="btn btn-light">Back</a>
+</div>
+
+    {% endblock %}
+
+    {% block javascripts %}
+    {% endblock %}

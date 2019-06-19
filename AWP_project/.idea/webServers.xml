@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="51a20e31-3a49-4594-a387-9a3d05af32d7" name="okpp" url="http://localhost:80">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="9e6306fa-b052-4206-9c10-d88258de9287" name="xampp" url="http://localhost:80">
+        <fileTransfer port="0" mountedRoot="E:\xampp\htdocs\okpp" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
